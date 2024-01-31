@@ -38,9 +38,11 @@ void sinx(int N, int terms, float* x, float* result)
   - Superscalar Processor: ILP (instruction level parallelism) (decode & execute two instrutcions per clock)
     - we don't have _independent insrtuctions_
 
-  - Proessor: pre multi-core era: majority of chip transistors used to perform operation that help _a single instruction_ stream run faster
-    - More transistors = larger cache, smarter out-of-order logic, smarter branch predictor, etc. (Also: more transistors → smaller transistors → higher clock frequencies)
-    <img width="630" alt="Screenshot 2024-01-30 at 3 14 25 PM" src="https://github.com/LuminaScript/CMU-15-418-618/assets/98562104/5343733a-695b-4b25-9e5f-fbaea3e281ad">
+  - Proessor:
+     - pre multi-core era: majority of chip transistors used to perform operation that help _a single instruction_ stream **run faster**
+       - More transistors = larger cache, smarter out-of-order logic, smarter branch predictor, etc. (Also: more transistors → smaller transistors → higher clock frequencies)
+       <img width="630" alt="Screenshot 2024-01-30 at 3 14 25 PM" src="https://github.com/LuminaScript/CMU-15-418-618/assets/98562104/5343733a-695b-4b25-9e5f-fbaea3e281ad">
+      - two cores: compute 2 elements in parallel
 
 
   
